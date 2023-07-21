@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-21 10:47:35.261560",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "lead_stages",
+  "stage_timeline"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "lead_stages",
+   "fieldtype": "Select",
+   "label": "Lead Stages",
+   "options": "Enquiry\nContacted\nNeed Analysis\nTour Arranged\nTour Completed\nMoney to Bank"
+  },
+  {
+   "fieldname": "stage_timeline",
+   "fieldtype": "Table",
+   "label": "Stage Timeline",
+   "options": "Stage Timeline"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-21 11:42:00.348829",
+ "modified_by": "Administrator",
+ "module": "MMT",
+ "name": "Booking",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

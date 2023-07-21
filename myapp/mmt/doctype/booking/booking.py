@@ -10,6 +10,7 @@ class Booking(Document):
 	# pass
 	def validate(self):
 		if len(self.stage_timeline):
+			frappe.msgprint("fdkjih")
 			if self.lead_stages != self.stage_timeline[-1].lead_stage:
 				if self.lead_stages == "Enquiry":
 					self.append(

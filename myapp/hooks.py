@@ -199,3 +199,4 @@ app_license = "MIT"
 # auth_hooks = [
 #	"myapp.auth.validate"
 # ]
+fixtures = [{"dt": "Custom Field", "filters": [["module", "=", "MMT"]]}]
